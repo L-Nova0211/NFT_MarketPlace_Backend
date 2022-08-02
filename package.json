@@ -1,0 +1,53 @@
+{
+  "name": "nft-market-place-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanbei0605/nft-market-place-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanbei0605/nft-market-place-back/issues"
+  },
+  "homepage": "https://github.com/kanbei0605/nft-market-place-back#readme",
+  "dependencies": {
+    "@date-io/date-fns": "^2.11.0",
+    "@material-ui/pickers": "^3.3.10",
+    "@syncfusion/ej2-react-calendars": "^19.2.47",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "bit": "^1.0.20",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.3.1",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.13.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-jquery-plugin": "^1.1.7",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-table": "^7.7.0",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
